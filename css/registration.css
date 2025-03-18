@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(136, 177, 130);
+}
+#form{
+    background-color: rgba(255, 255, 255, 0.788);
+    width: 25%;
+    margin: 120px auto;
+    padding:50px;
+    box-shadow: 10px 10px 5px rgb(160, 189, 158);
+    border-radius: 10px;
+}
+#btn{
+    color:black;
+    background-color: rgb(144, 173, 140);
+    padding:10px;
+    font-size:large;
+    border-radius:10px;
+}
+@media screen and (max-width:828px){
+    #form{
+        width:65%;
+        padding: 40px;
+    }
+}
+.background{
+    background: rgb(130, 163, 123); url('img/court.jpeg');
+    background-size:cover;
+    background-blend-mode:darken;
+}
+.text-footer{
+     text-align: center;
+    padding:10px 0;
+    font-family: "Merriweather", serif;
+    display:flex;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+}
